@@ -1,16 +1,22 @@
-﻿# website-upload-20260530-164901-255
+# 国产高分电视剧-国产剧集排行榜-全集高清在线播放
 
-Batch 255 of 50. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-2541 | project-bolt-sb1-tyhy6rus - 副本-chatgpt (1) (moved 1).zip |
-| version-2542 | project-bolt-sb1-tyhy6rus-chatgpt (1) (moved 1).zip |
-| version-2543 | project-bolt-sb1-tyhy6rus-chatgpt (1) (moved 2).zip |
-| version-2544 | project-bolt-sb1-tykr2dpp - 副本-chatgpt (1) (moved 1).zip |
-| version-2545 | project-bolt-sb1-tykr2dpp - 副本-chatgpt (1) (moved 2).zip |
-| version-2546 | project-bolt-sb1-tykr2dpp-chatgpt (1) (moved 1).zip |
-| version-2547 | project-bolt-sb1-tykr2dpp-chatgpt (1) (moved 2).zip |
-| version-2548 | project-bolt-sb1-u2puc9q8 - 副本-chatgpt (1) (moved 1).zip |
-| version-2549 | project-bolt-sb1-u2puc9q8-chatgpt (1) (moved 1).zip |
-| version-2550 | project-bolt-sb1-u2puc9q8-chatgpt (1).zip |
+## 文件说明
+
+- `index.html`：首页，包含 Hero 轮播、分类、热门推荐、排行榜和最新更新。
+- `categories.html`：分类总览页。
+- `category/*.html`：多个独立分类页，包含筛选交互和影片卡片。
+- `movies/*.html`：影片详情页，共 2000 个，包含播放器、剧情、短评和相关推荐。
+- `archive.html` / `search.html`：全部影片与搜索筛选页面。
+- `assets/style.css`：未压缩的站点样式文件。
+- `assets/app.js`：未压缩的站点交互脚本，包含 Hero 轮播、筛选、移动端菜单和 HLS 播放初始化。
+- `assets/hls-vendor-dru42stk.js`：来自上传素材的 HLS 播放依赖。
+
+## 图片放置
+
+页面已按要求引用网站顶级目录下的 `1.jpg` 到 `150.jpg`。部署时请把对应图片放在网站根目录，与 `index.html` 同级。
+
+## 部署方式
+
+把整个目录上传到任意静态空间即可访问，无需数据库和后端。
