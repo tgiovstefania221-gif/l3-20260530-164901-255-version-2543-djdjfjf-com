@@ -1,0 +1,9 @@
+{
+  "movies_parsed": 2000,
+  "html_pages": 2018,
+  "detail_pages": 2000,
+  "archive_cards": 2000,
+  "category_pages": 13,
+  "missing_baidu_count": 0,
+  "missing_baidu_examples": []
+}
